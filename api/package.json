@@ -2,10 +2,11 @@
   "name": "eventpulse-backend",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "start": "node src/index.js",
     "dev": "nodemon src/index.js",
-    "swagger": "node src/swagger.js" 
+    "swagger": "node swagger.js"
   },
   "keywords": [],
   "author": "",
